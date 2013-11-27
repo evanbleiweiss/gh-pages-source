@@ -1,6 +1,7 @@
 ---
 /* published: false */
 layout: post
+date: 2013-11-26
 ---
 <pre>
   <h4>A date here is a</h4>
