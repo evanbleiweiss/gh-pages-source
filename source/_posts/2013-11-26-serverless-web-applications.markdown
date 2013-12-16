@@ -18,3 +18,9 @@ The notion that there are:
  - Creating a Swarm effect, and improving performance
 
 Persistence remains an issue, as does caching, but I wonder what the limitations are in terms of 'web-safe' problem domains that this could not tackle. (Obv not anything relying on very low latency, for example)
+
+
+## Alternatives
+
+ - Watch database for updates to key data. recompile static pages with updated content. This should work for low-write, high-read scenarios
+ - Initiate database calls from client. Use AJAX for reading data that is likely to change. Do not compile into template.
