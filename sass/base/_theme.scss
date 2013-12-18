@@ -8,8 +8,8 @@ $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !defaul
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #f8f8f8 !default;
-$page-bg: #252525 !default;
+$main-bg: #31353d !default;
+$page-bg: #363942 !default;
 $article-border: #eeeeee !default;
 
 $header-bg: #333 !default;
@@ -17,8 +17,8 @@ $header-border: lighten($header-bg, 15) !default;
 $title-color: #f2f2f2 !default;
 $subtitle-color: #aaa !default;
 
-$text-color: #222 !default;
-$text-color-light: #aaa !default;
+$text-color: #def !default;
+$text-color-light: #962D3E !default;
 $type-border: #ddd !default;
 
 /* Navigation */

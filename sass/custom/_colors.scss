@@ -1,13 +1,20 @@
 // Here you can easily change your sites's color scheme.
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
+// layout
+// #962D3E #343642 #979C9C #F2EBC7 #348899 https://kuler.adobe.com/Gettysburg-color-theme-209416/
+// content
+// 1C1D21 31353D 445878 92CDCF EEEFF7 https://kuler.adobe.com/Quiet-Cry-color-theme-124171/ 
+// or
+// 143840 5C6B63 A69E89 E0C297 D96523 https://kuler.adobe.com/Modern-Classic-color-theme-1189338/
+// https://kuler.adobe.com/Japanese-Garden-color-theme-5020/
 
-//$header-bg: #263347;
+$header-bg: #348899;
 //$subtitle-color: lighten($header-bg, 58);
-//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
+$nav-bg: desaturate(lighten(#962d3e, 18), 8);
 //$nav-bg-front: image-url('noise.png');
 //$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
-//$sidebar-bg: desaturate(#eceff5, 8);
+$sidebar-bg: desaturate(#eceff5, 8);
 //$sidebar-link-color: saturate(#526f9a, 10);
 //$sidebar-link-color-hover: darken(#7ab662, 9);
 //$footer-bg: #ccc !default;
@@ -16,7 +23,7 @@
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
-//$solarized: light;
+$solarized: light;
 
 /* If you want to tweak the Solarized colors you can do that here */
 //$base03:          #002b36; //darkest blue
