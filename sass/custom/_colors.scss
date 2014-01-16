@@ -8,13 +8,15 @@
 // or
 // 143840 5C6B63 A69E89 E0C297 D96523 https://kuler.adobe.com/Modern-Classic-color-theme-1189338/
 // https://kuler.adobe.com/Japanese-Garden-color-theme-5020/
+// https://kuler.adobe.com/Quiet-Cry-color-theme-124171/
+
 
 $header-bg: #348899;
 //$subtitle-color: lighten($header-bg, 58);
 $nav-bg: desaturate(lighten(#962d3e, 18), 8);
 //$nav-bg-front: image-url('noise.png');
 //$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
-$sidebar-bg: desaturate(#eceff5, 8);
+$sidebar-bg: desaturate(#348899, 8);
 //$sidebar-link-color: saturate(#526f9a, 10);
 //$sidebar-link-color-hover: darken(#7ab662, 9);
 //$footer-bg: #ccc !default;
